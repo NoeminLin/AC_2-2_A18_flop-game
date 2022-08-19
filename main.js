@@ -135,7 +135,7 @@ const controller = {
                     this.currentState = GAME_STATE.CardsMatched
                     view.pairCards(...model.revealCards)
                     model.revealCards = []
-                    if (model.score === 10) {
+                    if (model.score === 260) {
                         this.currentState = GAME_STATE.GameFinished
                         view.showGameFinished()
                         return
